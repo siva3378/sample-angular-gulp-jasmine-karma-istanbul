@@ -1,0 +1,14 @@
+@mixin theme1 {
+  @if $theme == 'theme1' {
+    @content;
+  }
+}
+@mixin theme2 {
+  @if $theme == 'theme2' {
+    @content;
+  }
+}
+
+// Colors
+$color-primary:black !default;
+$color-secondary: gray !default;

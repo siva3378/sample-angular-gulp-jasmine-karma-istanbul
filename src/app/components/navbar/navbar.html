@@ -1,0 +1,11 @@
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+        <a class="navbar-brand" href="#">{{vm.appName}}</a>
+        <ul class="nav navbar-nav">
+            <li ng-repeat="item in vm.menu">
+                <a ng-href="{{item.base}}" ng-bind="item.name"></a>
+            </li>
+        </ul>
+        <p class="navbar-text">Sample angular app to demo Unit Testing with Jasmine & Karma</p>
+    </div>
+</nav>

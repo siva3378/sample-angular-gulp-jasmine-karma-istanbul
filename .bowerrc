@@ -1,0 +1,6 @@
+{
+    "directory": "src/libs",
+    "scripts": {
+        "postinstall":"gulp inject"
+    }
+}
